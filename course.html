@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Conditions</title>
+    <link rel="stylesheet" href="../node js/malekk.css">
+</head>
+<body>
+    <h1>Enrollment Conditions</h1>
+    
+   
+    
+            <h1>Course Requirements</h1>
+
+    
+        <main>
+            <section class="course">
+                <h2>Information Technology (IT)</h2>
+                <p>Condition: Basic knowledge of computer systems and introductory programming.</p>
+            </section>
+    
+            <section class="course">
+                <h2>Information Systems</h2>
+                <p>Condition: Understanding of IT concepts, basic math, and data analysis skills.</p>
+            </section>
+    
+            <section class="course">
+                <h2>Computer Science</h2>
+                <p>Condition: Strong mathematical skills, logical thinking, and experience with at least one programming language.</p>
+            </section>
+    
+            <section class="course">
+                <h2>Programming Language</h2>
+                <p>Condition: Familiarity with basic programming concepts and logical problem-solving skills.</p>
+            </section>
+    
+            <section class="course">
+                <h2>Mathematics 1</h2>
+                <p>Condition: Understanding of algebra and calculus basics.</p>
+            </section>
+    
+            <section class="course">
+                <h2>Mathematics 2</h2>
+                <p>Condition: Knowledge of advanced calculus and linear algebra.</p>
+            </section>
+    
+            <section class="course">
+                <h2>Software Engineering</h2>
+                <p>Condition: Basic programming skills, understanding of development life cycle, and teamwork abilities.</p>
+            </section>
+    
+            <section class="course">
+                <h2>Database Management</h2>
+                <p>Condition: Understanding of data structures, basic SQL, and knowledge of database concepts.</p>
+            </section>
+        </main>
+        <a href="javascript:void(0);" class="enroll-btn" onclick="confirmEnrollment()">I Agree and go</a>
+
+        <script>
+            function confirmEnrollment() {
+                // Show a confirmation dialog box
+                const userConfirmation = confirm("Are you sure you want to enroll in this course?");
+                if (userConfirmation) {
+                    // Redirect to the confirm.html page if the user clicks "Yes"
+                    window.location.href = 'confirm.html';
+                } else {
+                    // Optional: display a message if the user clicks "Cancel"
+                    alert("You have canceled the enrollment.");
+                }
+            }
+        </script>
+    
+    
+    
+    
+     
+
+    </ul>
+   
+    
+  
+     
+      
+
+
+
+</body>
+</html>

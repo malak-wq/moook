@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Course Enrollment</title>
+    <link rel="stylesheet" href="../node js/malekk.css">
+</head>
+<body>
+    <h1>course enrollment</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Subject Name</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>pl</td>
+                <td><a href="javascript:void(0);" onclick="confirmEnrollment('course.html')">Enroll</a></td>
+            </tr>
+            <tr>
+                <td>math</td>
+                <td><a href="javascript:void(0);" onclick="confirmEnrollment('course.html')">Enroll</a></td>
+            </tr>
+            <tr>
+                <td>math2</td>
+                <td><a href="javascript:void(0);" onclick="confirmEnrollment('course.html')">Enroll</a></td>
+            </tr>
+            <tr>
+                <td>cs</td>
+                <td><a href="javascript:void(0);" onclick="confirmEnrollment('course.html')">Enroll</a></td>
+            </tr>
+            <tr>
+                <td>it</td>
+                <td><a href="javascript:void(0);" onclick="confirmEnrollment('course.html')">Enroll</a></td>
+            </tr>
+            <tr>
+                <td>sa</td>
+                <td><a href="javascript:void(0);" onclick="confirmEnrollment('course.html')">Enroll</a></td>
+            </tr>
+            <tr>
+                <td>se</td>
+                <td><a href="javascript:void(0);" onclick="confirmEnrollment('course.html')">Enroll</a></td>
+            </tr>
+            <tr>
+                <td>database</td>
+                <td><a href="javascript:void(0);" onclick="confirmEnrollment('course.html')">Enroll</a></td>
+            </tr>
+            <tr>
+                <td>database2</td>
+                <td><a href="javascript:void(0);" onclick="confirmEnrollment('course.html')">Enroll</a></td>
+            </tr>
+            <tr>
+                <td>sw</td>
+                <td><a href="javascript:void(0);" onclick="confirmEnrollment('course.html')">Enroll</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul id="subjects-list"></ul>
+
+    <script>
+        function confirmEnrollment(url) {
+            // Show a confirmation dialog box
+            const userConfirmation = confirm("Are you sure you want to see the conditions?");
+            if (userConfirmation) {
+                // Redirect to the course.html page if the user clicks "Yes"
+                window.location.href = url;
+            } else {
+                // Optional: display a message or take other action if "Cancel" is clicked
+                alert("You have canceled the enrollment.");
+            }
+        }
+    </script>
+
+<ul id="subjects-list"></ul>
+
+
+
+</body>
+</html>

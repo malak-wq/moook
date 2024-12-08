@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(133, 133, 154);
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #876060;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #182431;
+    color: white;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+.enroll-btn {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-btn {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #367043;
+}
+
+.back-btn:hover {
+    background-color: #218838;
+}
+
+
